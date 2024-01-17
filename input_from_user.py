@@ -53,11 +53,9 @@ def input_taken_for_user():
 
             random_words = random.sample(list(Words),int(user_choice))
 
-            wpm_measure_and_display_Results()
-
             # measure wpm
 
-            WPM = wpm_measure_and_display_Results(random_words)
+            WPM = wpm_measure(random_words)
 
             # displaying_the_result
             print("---------------")
