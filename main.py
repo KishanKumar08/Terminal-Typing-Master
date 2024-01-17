@@ -19,6 +19,8 @@ def update_leaderboard(username,wpm,json_file="leaderboard.json"):
 
     leaderboard[username] = wpm
 
+    #sort leaderboard
+    leaderboard = dict(sorted(leaderboard.items(), key=lambda item: item[1], reverse=True))
 
     # leaderboard(python dictionary) --> json (dump)
     with open(json_file,"w") as f:
@@ -46,8 +48,6 @@ def show_leaderboard():
     with open("leaderboard.json","r") as file:
         leaderboard = json.load(file)
 
-    #sort the leaderboard
-    leaderboard = dict(sorted(leaderboard.items(),reverse=True))
 
     #show the leaderboard in terminal
     print()

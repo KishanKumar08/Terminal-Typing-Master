@@ -10,13 +10,11 @@ def update_leaderboard(username,wpm,json_file="leaderboard.json"):
         leaderboard = {}
 
 
-    #update leaderboard
 
-    if username in leaderboard:
-        print("The Username is already exists.")
-    else:
-        leaderboard[username] = wpm
+    leaderboard[username] = wpm
 
+    #sort_leaderboard
+    leaderboard = dict(sorted(leaderboard.items(), key=lambda item: item[1], reverse=True))
 
     # leaderboard(python dictionary) --> json (dump)
 
