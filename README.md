@@ -31,12 +31,11 @@ Project Structure:
 📄 main.py: Contains the main game logic.
 <br>
 <br>
+
 📁 Leaderboard Module:
-<br>
 <br>
 
 📄 update_leaderboard.py: Defines the update_leaderboard function to update and sort the leaderboard stored in a JSON file.
-<br>
 <br>
 
 📄 show_leaderboard.py: Implements the show_leaderboard function to display the leaderboard from the JSON file.
@@ -44,7 +43,6 @@ Project Structure:
 <br>
 
 📁 Word Handler Module:
-<br>
 <br>
 
 
@@ -54,8 +52,6 @@ Project Structure:
 
 📁 Input Handler Module:
 <br>
-<br>
-
 
 📄 get_user_input.py: Defines the get_user_input function to capture user input from the terminal.
 <br>
@@ -63,15 +59,14 @@ Project Structure:
 
 How to Run:
 <br>
+
+* Ensure that Python is installed on your system and all required modules.
 <br>
 
-Ensure that Python is installed on your system and all required modules.
+* Execute the main module (e.g., main.py) to launch the Terminal Typing Master.
 <br>
 
-Execute the main module (e.g., main.py) to launch the Terminal Typing Master.
+* Follow the on-screen instructions to improve your typing skills, track your progress, and compete on the leaderboard.
+<be>
 <br>
-
-Follow the on-screen instructions to improve your typing skills, track your progress, and compete on the leaderboard.
-<br>
-
 Note: Customize terminal colors and adjust settings in the respective modules based on your preferences. Enjoy the typing challenges and strive for the top spot on the leaderboard! 🏆🚀
