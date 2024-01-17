@@ -1,43 +1,77 @@
 # Terminal-Typing-Master
-🚀 Welcome to the Terminal Typing Master, a Python-based application designed to elevate your typing skills through an engaging and effective practice experience. Whether you're a beginner looking to improve accuracy or an expert aiming for speed, this application provides a personalized and structured environment for your typing journey. 🎯🖋️
+<br>
+Description:
+🎮 The Terminal Typing Master is a Python-based project designed to enhance your typing skills through a fun and interactive command-line interface. Users can practice typing random words displayed on the terminal, compete against the clock, and track their progress. The project utilizes various Python modules such as json, termcolor, random, and time to provide a rich and engaging experience.
 <br>
 <br>
-
 Key Features:
 <br>
-<br>
 
-User-Friendly Interface: Enjoy a seamless experience with personalized prompts. 🤝💻
-<br>
-<br>
-
-Typing Test: Challenge yourself with a diverse set of random words and track real-time metrics (Words Typed, Time, WPM). 📈⏱️
+🌈 Colorful Interface: The termcolor module is employed to add vibrant colors to the terminal, creating an aesthetically pleasing and visually engaging typing environment.
 <br>
 <br>
 
-Leaderboard Integration: Monitor your progress and engage in friendly competition with others. 🏆🔥
+📊 Data Storage with JSON: The project utilizes the json module to store user data, allowing for progress tracking, achievements, and personalized settings to enhance the overall user experience.
 <br>
 <br>
 
-Clear Rules and Guidelines: Ensure a focused and straightforward practice session. 📜🎯
+🎲 Random Word Generation: The random module is leveraged to select and display random words for the user to type, ensuring a diverse and challenging typing practice.
 <br>
 <br>
 
-Flexible Exit Option: Quit gracefully at any point using 'Ctrl + Q'. 🚪👋
+⏱️ Time Tracking: The time module is employed to calculate and display the user's typing speed and accuracy, adding a competitive element to the typing exercises.
 <br>
 <br>
 
-Organized Code Structure: Easily understandable functions for seamless modification. 🧩📝
+Project Structure:
+<br>
+
+📁 Main Module:
+<br>
+📄 main.py: Contains the main game logic.
+<br>
+<br>
+📁 Leaderboard Module:
 <br>
 <br>
 
-Future Plans: Expect more typing categories and the introduction of a time-based challenge mode. 🚀🔮
+📄 update_leaderboard.py: Defines the update_leaderboard function to update and sort the leaderboard stored in a JSON file.
 <br>
 <br>
 
-Embark on a journey towards typing mastery with Terminal Typing Master! 🌐✨
+📄 show_leaderboard.py: Implements the show_leaderboard function to display the leaderboard from the JSON file.
+<br>
+<br>
+
+📁 Word Handler Module:
+<br>
+<br>
 
 
+📄 load_words_from_json.py: Contains the load_words_from_json function to load words from a JSON file into a Python dictionary.
+<br>
+<br>
+
+📁 Input Handler Module:
+<br>
+<br>
 
 
+📄 get_user_input.py: Defines the get_user_input function to capture user input from the terminal.
+<br>
+<br>
 
+How to Run:
+<br>
+<br>
+
+Ensure that Python is installed on your system and all required modules.
+<br>
+
+Execute the main module (e.g., main.py) to launch the Terminal Typing Master.
+<br>
+
+Follow the on-screen instructions to improve your typing skills, track your progress, and compete on the leaderboard.
+<br>
+
+Note: Customize terminal colors and adjust settings in the respective modules based on your preferences. Enjoy the typing challenges and strive for the top spot on the leaderboard! 🏆🚀
