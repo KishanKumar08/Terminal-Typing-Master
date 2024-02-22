@@ -86,6 +86,7 @@ def wpm_measure(random_words):
     for word in random_words:
         print(word,end=" ")
         user_typing = input()
+        
         if user_typing == word:
             typed_words_by_user.append("True")
     
@@ -142,6 +143,7 @@ def input_taken():
 
             data = wpm_measure(random_words) #data = [wpm,correct_words,time_taken]
 
+            
             # displaying_the_result
             print("---------------")
             print("Results 📈 :-")

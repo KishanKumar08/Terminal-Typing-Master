@@ -1,72 +1,75 @@
-# Terminal-Typing-Master
-<br>
-Description:
-🎮 The Terminal Typing Master is a Python-based project designed to enhance your typing skills through a fun and interactive command-line interface. Users can practice typing random words displayed on the terminal, compete against the clock, and track their progress. The project utilizes various Python modules such as json, termcolor, random, and time to provide a rich and engaging experience.
-<br>
-<br>
-Key Features:
-<br>
 
-🌈 Colorful Interface: The termcolor module is employed to add vibrant colors to the terminal, creating an aesthetically pleasing and visually engaging typing environment.
-<br>
-<br>
+# Terminal Typing Master
 
-📊 Data Storage with JSON: The project utilizes the json module to store user data, allowing for progress tracking, achievements, and personalized settings to enhance the overall user experience.
-<br>
-<br>
+Terminal Typing Master is a command-line tool designed to help you enhance your typing skills directly from your terminal window.
 
-🎲 Random Word Generation: The random module is leveraged to select and display random words for the user to type, ensuring a diverse and challenging typing practice.
-<br>
-<br>
+## Features
 
-⏱️ Time Tracking: The time module is employed to calculate and display the user's typing speed and accuracy, adding a competitive element to the typing exercises.
-<br>
-<br>
+- **Interactive Typing Exercises**: Practice typing with interactive exercises to improve your speed and accuracy.
+- **Customizable Settings**: Tailor your typing sessions by adjusting difficulty levels, choosing specific exercises, and setting time limits.
+- **Progress Tracking**: Keep track of your typing progress over time to monitor improvements and identify areas for enhancement.
+- **Command-line Interface**: Utilize a simple and intuitive CLI interface for seamless typing practice.
 
-Project Structure:
-<br>
+## Installation
 
-📁 Main Module:
-<br>
-📄 main.py: Contains the main game logic.
-<br>
-<br>
+To install Terminal Typing Master, follow these steps:
 
-📁 Leaderboard Module:
-<br>
+1. Clone the repository to your local machine:
 
-📄 update_leaderboard.py: Defines the update_leaderboard function to update and sort the leaderboard stored in a JSON file.
-<br>
+    ```
+    git clone https://github.com/KishanKumar08/Terminal-Typing-Master.git
 
-📄 show_leaderboard.py: Implements the show_leaderboard function to display the leaderboard from the JSON file.
-<br>
-<br>
+2. Navigate to the cloned directory:
 
-📁 Word Handler Module:
-<br>
+    ```
+    cd Terminal-Typing-Master
+    ```
+
+3. Install the necessary dependencies:
+
+    ```
+    pip install time
+    pip install random
+    pip install termcolor
+    pip install json
+    ```
+
+## Usage
+
+Once installed, you can launch Terminal Typing Master by running the following command:
+
+```
+python main.py
+```
+
+Follow the on-screen instructions to initiate typing practice sessions and improve your typing skills.
+
+## Starting
+[Intro](images/starting.png)
+
+## Results
+[Results](images/results.png)
+
+## Leaderboard
+[Leaderboard](images/leaderboard.png)
+
+## Contributing
+
+We welcome contributions to Terminal Typing Master! If you would like to contribute, please follow these guidelines:
+
+1. Fork the repository on GitHub.
+2. Create a new branch from the `main` branch.
+3. Make your desired changes.
+4. Test your changes thoroughly.
+5. Create a pull request with a clear description of your changes.
 
 
-📄 load_words_from_json.py: Contains the load_words_from_json function to load words from a JSON file into a Python dictionary.
-<br>
-<br>
+## Acknowledgments
 
-📁 Input Handler Module:
-<br>
+We would like to express our gratitude to all contributors who have helped improve Terminal Typing Master.
 
-📄 get_user_input.py: Defines the get_user_input function to capture user input from the terminal.
-<br>
-<br>
+## Contact
 
-How to Run:
-<br>
+For any inquiries or support, please contact us at [kmali4551@gmail.com](mailto:kmali4551@gmail.com).
+```
 
-* Ensure that Python is installed on your system and all required modules.
-<br>
-
-* Execute the main module (e.g., main.py) to launch the Terminal Typing Master.
-<br>
-
-* Follow the on-screen instructions to improve your typing skills, track your progress, and compete on the leaderboard.
-<be>
-<br>
-Note: Customize terminal colors and adjust settings in the respective modules based on your preferences. Enjoy the typing challenges and strive for the top spot on the leaderboard! 🏆🚀
