@@ -45,13 +45,13 @@ python main.py
 Follow the on-screen instructions to initiate typing practice sessions and improve your typing skills.
 
 ## Starting
-![Intro](starting.png)
+![Intro](images/starting.png)
 
 ## Results
-![Results](results.png)
+![Results](images/results.png)
 
 ## Leaderboard
-![Leaderboard](leaderboard.png)
+![Leaderboard](images/leaderboard.png)
 
 ## Contributing
 
