@@ -71,5 +71,3 @@ We would like to express our gratitude to all contributors who have helped impro
 ## Contact
 
 For any inquiries or support, please contact us at [kmali4551@gmail.com](mailto:kmali4551@gmail.com).
-```
-
