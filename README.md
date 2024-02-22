@@ -18,7 +18,7 @@ To install Terminal Typing Master, follow these steps:
 
     ```
     git clone https://github.com/KishanKumar08/Terminal-Typing-Master.git
-
+    ```
 2. Navigate to the cloned directory:
 
     ```
@@ -45,13 +45,13 @@ python main.py
 Follow the on-screen instructions to initiate typing practice sessions and improve your typing skills.
 
 ## Starting
-[Intro](images/starting.png)
+[Intro](starting.png)
 
 ## Results
-[Results](images/results.png)
+[Results](results.png)
 
 ## Leaderboard
-[Leaderboard](images/leaderboard.png)
+[Leaderboard](leaderboard.png)
 
 ## Contributing
 
